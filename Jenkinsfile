@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Check node version') {
             steps {
-                bat "node -version"
+                bat "node --version"
             }
         }
     }
